@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Debug Main File",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/test.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Debug Active File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "/Users/jan/daten/Programmieren/JanSchaffranek/VSCodeGuide",
+      "environment": [],
+      "program": "/Users/jan/daten/Programmieren/JanSchaffranek/VSCodeGuide/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "lldb",
+      "miDebuggerPath": "/usr/bin/lldb",
+      "externalConsole": false
+    }
+  ]
+}
