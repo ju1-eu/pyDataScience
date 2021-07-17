@@ -41,12 +41,17 @@ conda activate base
 # environment
 conda create -n pyAnfaenger python=3.8
 conda activate pyAnfaenger
-
-conda create -n pyData python=3.8
-conda activate pyData
 conda deactivate
 
+# rpi4: 
+# MINICONDA  (https://programmerwiki.com/article/56621119030/)
+# Python3.8 (https://maker-tutorials.com/python3-pip-raspberry-pi-installieren/)
+source activate pyAnfaenger
+
 pip install -r requirements.txt
+# wenn Problem mit export in *.ipynb
+pip uninstall nbconvert
+pip install nbconvert -U
 
 ## VScode und Extension installieren
 franneck94
