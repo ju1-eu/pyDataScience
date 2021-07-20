@@ -13,7 +13,6 @@ Note: The shortcuts may differ in osx.
 ```bash
 # git config
 git config --global email "???"
-git config --global user.name "pi rpi4"
 git config --global user.name "Jan iMac"
 
 # git clone 
@@ -28,9 +27,9 @@ git clone https://github.com/ju1-eu/VSCodeGuide-master.git
 # rpi4
 ssh -lpi 192.168.1.203 
 # ubuntu
-ssh -ljan 192.168.1.35
+ssh -ljan 192.168.1.223
 # kali
-ssh -ljan 192.168.1."???"
+ssh -ljan 192.168.1.220
 ```
 
 ## Python in VSCode
@@ -39,14 +38,14 @@ ssh -ljan 192.168.1."???"
 # Anaconda installieren
 conda activate base
 # environment
-conda create -n pyAnfaenger python=3.8
-conda activate pyAnfaenger
+conda create -n pyData python=3.8
+conda activate pyData
 conda deactivate
 
 # rpi4: 
 # MINICONDA  (https://programmerwiki.com/article/56621119030/)
 # Python3.8 (https://maker-tutorials.com/python3-pip-raspberry-pi-installieren/)
-source activate pyAnfaenger
+source activate pyData
 
 pip install -r requirements.txt
 # wenn Problem mit export in *.ipynb
