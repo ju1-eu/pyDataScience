@@ -8,7 +8,7 @@
     // Explorer settings
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": -1,
     // Files settings
     "files.associations": {
         "*.pyx": "python"
